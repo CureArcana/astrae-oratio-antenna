@@ -139,6 +139,7 @@ def render_site(entries: list[Entry]) -> None:
         "site_title": "アストラエ・オラティオ まとめサイトアンテナ！",
         "site_url": "https://astrae-oratio.com",
         "main_blog_url": "https://asuora.com",
+        "web3forms_key": "a345584b-327b-486b-8311-f553c247a3e6",
     }
 
     # index.html
@@ -159,6 +160,20 @@ def render_site(entries: list[Entry]) -> None:
     # feed.xml（アンテナ自身のRSS）
     feed_tpl = env.get_template("feed.xml.j2")
     (OUTPUT_DIR / "feed.xml").write_text(feed_tpl.render(**ctx), encoding="utf-8")
+
+    # /contact/index.html（お問い合わせフォーム）
+    contact_tpl = env.get_template("contact.html.j2")
+    contact_dir = OUTPUT_DIR / "contact"
+    contact_dir.mkdir(parents=True, exist_ok=True)
+    (contact_dir / "index.html").write_text(contact_tpl.render(**ctx), encoding="utf-8")
+    print(f"[write] {contact_dir / 'index.html'}", file=sys.stderr)
+
+    # /thanks/index.html（送信完了ページ）
+    thanks_tpl = env.get_template("thanks.html.j2")
+    thanks_dir = OUTPUT_DIR / "thanks"
+    thanks_dir.mkdir(parents=True, exist_ok=True)
+    (thanks_dir / "index.html").write_text(thanks_tpl.render(**ctx), encoding="utf-8")
+    print(f"[write] {thanks_dir / 'index.html'}", file=sys.stderr)
 
 
 def main() -> int:
