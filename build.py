@@ -136,7 +136,7 @@ def render_site(entries: list[Entry]) -> None:
         "entries": entries,
         "feeds": FEEDS,
         "generated_at": now_jst.strftime("%Y-%m-%d %H:%M JST"),
-        "site_title": "アストラエ・オラティオ アンテナ",
+        "site_title": "アストラエ・オラティオ まとめサイトアンテナ！",
         "site_url": "https://astrae-oratio.com",
         "main_blog_url": "https://asuora.com",
     }
