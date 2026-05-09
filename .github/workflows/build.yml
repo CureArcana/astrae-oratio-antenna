@@ -1,0 +1,48 @@
+name: Build & Deploy Antenna
+
+on:
+  schedule:
+    # 6時間ごとにRSS取得→ビルド→push
+    # ボイラボのスクレイパ稼働時間帯（深夜0-2時 JST = 15-17 UTC、夕方16:30-18時 JST = 7:30-9 UTC）を避ける
+    # 03:00, 09:00, 15:00, 21:00 JST = 18:00, 00:00, 06:00, 12:00 UTC
+    - cron: "0 18 * * *"
+    - cron: "0 0 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: python build.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "antenna-bot"
+          git config user.email "antenna-bot@users.noreply.github.com"
+          git add public/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: rebuild antenna [skip ci]"
+            git push
+          fi

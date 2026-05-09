@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{{ site_title }}</title>
+  <link>{{ site_url }}/</link>
+  <atom:link href="{{ site_url }}/feed.xml" rel="self" type="application/rss+xml" />
+  <description>アストラエ・オラティオ関連まとめRSSアンテナ</description>
+  <language>ja</language>
+  <lastBuildDate>{{ generated_at }}</lastBuildDate>
+  {% for e in entries %}
+  <item>
+    <title>{{ e.title }}</title>
+    <link>{{ e.link }}</link>
+    <guid isPermaLink="true">{{ e.link }}</guid>
+    <pubDate>{{ e.published_iso }}</pubDate>
+    <source url="{{ e.source_url }}">{{ e.source_name }}</source>
+    {% if e.summary %}<description>{{ e.summary }}</description>{% endif %}
+  </item>
+  {% endfor %}
+</channel>
+</rss>
