@@ -6,7 +6,14 @@
   <atom:link href="https://astrae-oratio.com/feed.xml" rel="self" type="application/rss+xml" />
   <description>アストラエ・オラティオ関連まとめRSSアンテナ</description>
   <language>ja</language>
-  <lastBuildDate>2026-05-23 17:09 JST</lastBuildDate>
+  <lastBuildDate>2026-05-23 22:03 JST</lastBuildDate>
+  <item>
+    <title>【アスオラ】新キャラ「人形（Doll）」公開！【CV白石晴香】</title>
+    <link>https://asuora.com/asuora-new-character-doll-20260520/</link>
+    <guid isPermaLink="true">https://asuora.com/asuora-new-character-doll-20260520/</guid>
+    <pubDate>2026-05-23T12:23:26+00:00</pubDate>
+    <source url="https://asuora.com/">アスオラまとめ速報</source>
+<description>『アストラエ・オラティオ』（アスオラ）に新キャラ「人形（Doll）」が公開！長官が主任を守るために作った臨時ボディーガード、CVはまさかの白石晴香（=灯愛と二役）。Xの民の反応20件をまとめました。</description>  </item>
   <item>
     <title>【アスオラ】主要キャラ「平和岸灯愛」と「主任」公開！Xの民の反応【白石晴香CV】</title>
     <link>https://asuora.com/%e3%80%90%e3%82%a2%e3%82%b9%e3%82%aa%e3%83%a9%e3%80%91%e4%b8%bb%e8%a6%81%e3%82%ad%e3%83%a3%e3%83%a9%e3%80%8c%e5%b9%b3%e5%92%8c%e5%b2%b8%e7%81%af%e6%84%9b%e3%80%8d%e3%81%a8%e3%80%8c%e4%b8%bb%e4%bb%bb/</link>
@@ -70,12 +77,5 @@
     <pubDate>2026-05-04T10:27:40+00:00</pubDate>
     <source url="https://asuora.com/">アスオラまとめ速報</source>
 <description>アスオラ攻略の基本 「アストラエ・オラティオ」（アスオラ）を効率よく進めるための基本攻略をまとめます。本記事は今後随時アップデート予定です。 序盤で意識したいポイント 基本操作の習熟 リソース管理 序盤キャラクターの育成 […]</description>  </item>
-  <item>
-    <title>アストラエ・オラティオ（アスオラ）最新情報・速報まとめ【随時更新】</title>
-    <link>https://asuora.com/latest-news/</link>
-    <guid isPermaLink="true">https://asuora.com/latest-news/</guid>
-    <pubDate>2026-05-04T10:27:39+00:00</pubDate>
-    <source url="https://asuora.com/">アスオラまとめ速報</source>
-<description>アスオラ最新情報まとめ 本記事ではアスオラに関する最新情報・速報を随時更新形式でまとめます。 更新履歴 本記事を作成しました（初回） 速報カテゴリの記事一覧 当サイト「アスオラまとめ速報」の速報カテゴリでは、アスオラに関 […]</description>  </item>
 </channel>
 </rss>
