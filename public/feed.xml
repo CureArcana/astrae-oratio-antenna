@@ -6,7 +6,14 @@
   <atom:link href="https://astrae-oratio.com/feed.xml" rel="self" type="application/rss+xml" />
   <description>アストラエ・オラティオ関連まとめRSSアンテナ</description>
   <language>ja</language>
-  <lastBuildDate>2026-05-27 18:34 JST</lastBuildDate>
+  <lastBuildDate>2026-05-27 23:56 JST</lastBuildDate>
+  <item>
+    <title>【考察】アストラエ・オラティオ（アスオラ）の舞台はなぜ1889年なのか？“裏内閣”の正体と特区庁の権力構造を史実から読み解く</title>
+    <link>https://asuora.com/asuora-meiji22-inner-cabinet-consideration/</link>
+    <guid isPermaLink="true">https://asuora.com/asuora-meiji22-inner-cabinet-consideration/</guid>
+    <pubDate>2026-05-27T11:33:00+00:00</pubDate>
+    <source url="https://asuora.com/">アスオラまとめ速報</source>
+<description>アストラエ・オラティオ（アスオラ）の舞台はなぜ1889年なのか。公式設定で示された“裏内閣”や“特区庁”は、史実の明治22年に成立した元老制度や内務省と重ねるとどう読めるのか。1889年という年の選択の意味を、史実と公式設定の両面から考察します。</description>  </item>
   <item>
     <title>【アスオラ】新キャラ「人形（Doll）」公開！【CV白石晴香】</title>
     <link>https://asuora.com/asuora-new-character-doll-20260520/</link>
@@ -70,12 +77,5 @@
     <pubDate>2026-05-04T10:27:40+00:00</pubDate>
     <source url="https://asuora.com/">アスオラまとめ速報</source>
 <description>アスオラ登場キャラクター一覧 「アストラエ・オラティオ」（アスオラ）の登場キャラクターに関する情報をまとめます。 キャラクターカテゴリ 新キャラ情報、キャラ別評価、おすすめ編成などを今後展開していく予定です。 関連記事 […]</description>  </item>
-  <item>
-    <title>アストラエ・オラティオ（アスオラ）攻略まとめ — 序盤から効率よく進めるコツ</title>
-    <link>https://asuora.com/strategy-guide/</link>
-    <guid isPermaLink="true">https://asuora.com/strategy-guide/</guid>
-    <pubDate>2026-05-04T10:27:40+00:00</pubDate>
-    <source url="https://asuora.com/">アスオラまとめ速報</source>
-<description>アスオラ攻略の基本 「アストラエ・オラティオ」（アスオラ）を効率よく進めるための基本攻略をまとめます。本記事は今後随時アップデート予定です。 序盤で意識したいポイント 基本操作の習熟 リソース管理 序盤キャラクターの育成 […]</description>  </item>
 </channel>
 </rss>
